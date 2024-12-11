@@ -37,14 +37,14 @@ void printList(const vector<vector<int>>& adList) {
 
 int main() {
     int V, E;
-    cout << "Enter Number of Vertices: ";
+    cout << "Enter Number of Vertices: "; // Ex: 5
     cin >> V;
-    cout << "Enter Number of Edges: ";
+    cout << "Enter Number of Edges: "; // Ex: 6
     cin >> E;
-  // To initialize vector and store edges as integer pairs
+    // To initialize vector and store edges as integer pairs
     vector<pair<int, int>> edges;
 
-    cout << "Enter the Edges in pairs (u v): " << endl;
+    cout << "Enter the Edges in pairs (u v): " << endl; // Ex: (0,1) (0,2) (1,2) (1,3) (2,4) (3,4)
 
     for (int i = 0; i < E; ++i) {
         int u, v;
@@ -61,7 +61,7 @@ int main() {
 
     cout << "\nAdjacency List: " << endl;
     //And this will print said list
-    printList(adList);
+    printList(adList); // The output will appear as: {1,2}, {0,2,3}, {0,1,4}, {1,4}, {2,3}
 
     return 0;
 }
