@@ -45,7 +45,7 @@ int main() {
     //Conducts BFS Traversal || resBFS = result of BFS
     vector<int> resBFS = traversal(adj);
 
-    //Output
+    //Output (It's [ 0 1 3 2 ])
     cout << "BFS Traversal: ";
     for (int node : resBFS) {
         cout << node << " ";
