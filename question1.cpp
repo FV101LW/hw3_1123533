@@ -44,7 +44,7 @@ int main() {
     // To initialize vector and store edges as integer pairs
     vector<pair<int, int>> edges;
 
-    cout << "Enter the Edges in pairs (u v): " << endl; // Ex: (0,1) (0,2) (1,2) (1,3) (2,4) (3,4)
+    cout << "Enter the Edges in pairs (u v): " << endl; // Ex: (0,1) (0,2) (1,2) (1,3) (2,4) (3,4) This can be entered as 0 1 0 2 1 2 1 3 2 3 3 4 or in vertical list form in pairs.
 
     for (int i = 0; i < E; ++i) {
         int u, v;
