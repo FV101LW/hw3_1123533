@@ -37,7 +37,7 @@ int main() {
 
     vector<int> resDFS = DFS(adj);
 
-    // Output of Depth-First Search
+    // Output of Depth-First Search (It's [1 2 3 4 5])
     cout << "DFS Traversal: [";
     for (int node : resDFS) {
         cout << node << " ";
